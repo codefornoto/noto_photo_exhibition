@@ -3,7 +3,7 @@ let imageList = [];
 const imageURLColumn = 2;
 const imageDispIntervalColomn = 4;
 const defaultImageURL =
-  "https://lh3.googleusercontent.com/d/1u3pXM4l88Gy-bHLNg7Qsepke86vEWGxS";
+  "https://lh3.googleusercontent.com/d/1_n1SzRrDqupks6Em8jBtVBT694U7ZpSj";
 const END_POINT =
   "https://script.google.com/macros/s/AKfycbwL7XY_xMJSXXdfSVE17cesaXn5N9gjz7GjSetHKuIchetDCE2zeuaXC8JLeMJ7ESM/exec";
 const defaultInterval = 5; //秒
