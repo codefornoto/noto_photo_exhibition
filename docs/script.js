@@ -4,6 +4,8 @@ const imageURLColumn = 2;
 const imageDispIntervalColomn = 4;
 const defaultImageURL =
   "https://lh3.googleusercontent.com/d/1u3pXM4l88Gy-bHLNg7Qsepke86vEWGxS";
+const END_POINT =
+  "https://script.google.com/macros/s/AKfycbwL7XY_xMJSXXdfSVE17cesaXn5N9gjz7GjSetHKuIchetDCE2zeuaXC8JLeMJ7ESM/exec";
 const defaultInterval = 5; //秒
 let timerID = null;
 
@@ -70,8 +72,6 @@ function addImagePreloadLink(imageURL) {
 }
 
 function getDataFromSpreadSheet() {
-  const END_POINT =
-    "https://script.google.com/macros/s/AKfycbwL7XY_xMJSXXdfSVE17cesaXn5N9gjz7GjSetHKuIchetDCE2zeuaXC8JLeMJ7ESM/exec";
   $.ajax({
     type: "GET",
     url: END_POINT,
